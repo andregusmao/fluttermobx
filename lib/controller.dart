@@ -36,4 +36,8 @@ abstract class _ControllerBase with Store {
     print('Nome: ${client.name}');
     print('Email: ${client.email}');
   }
+
+  void dispose() {
+    print('Close application');
+  }
 }
