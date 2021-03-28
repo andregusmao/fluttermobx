@@ -7,15 +7,15 @@ abstract class _ClientBase with Store {
   @observable
   String name;
   @action
-  changeName(String name) => this.name = name;
+  void changeName(String name) => this.name = name;
 
   @observable
   String email;
   @action
-  changeEmail(String email) => this.email = email;
+  void changeEmail(String email) => this.email = email;
 
   @observable
   String document;
   @action
-  changeDocument(String document) => this.document = document;
+  void changeDocument(String document) => this.document = document;
 }
